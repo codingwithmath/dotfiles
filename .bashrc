@@ -58,6 +58,10 @@ PERL_LOCAL_LIB_ROOT="/home/matheus/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB
 PERL_MB_OPT="--install_base \"/home/matheus/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/home/matheus/perl5"; export PERL_MM_OPT;
 
+# ~~~~~~~~~~~~~~~ Go ~~~~~~~~~~~~~~~~~~~~~~~~
+export PATH=$PATH:/usr/local/go/bin
+export GOBIN=/usr/local/bin
+export GOPATH=$HOME/go/
 
 # ~~~~~~~~~~~~~~~ Aliases ~~~~~~~~~~~~~~~~~~~~~~~~
 alias la='ls -A'

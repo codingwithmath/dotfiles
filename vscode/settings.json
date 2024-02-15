@@ -1,0 +1,72 @@
+{
+    "workbench.colorTheme": "Min Dark",
+    "symbols.hidesExplorerArrows": false,
+    "workbench.iconTheme": "symbols",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "window.zoomLevel": 1,
+    "editor.rulers": [
+      80,
+      120
+    ],
+    "editor.tabSize": 4,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.renderLineHighlight": "gutter",
+    "workbench.editor.labelFormat": "short",
+    "editor.fontLigatures": true,
+    "explorer.compactFolders": false,
+    "editor.semanticHighlighting.enabled": false,
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.location": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "workbench.statusBar.visible": false,
+    "apc.electron": {
+      "titleBarStyle": "hiddenInset"
+    },
+    "apc.font.family": "Inter",
+    "apc.stylesheet": {
+      ".title-label > h2": "display: none",
+      ".editor-actions": "display: none",
+      ".nosidebar .inline-tabs-placeholder": "width: 75px",
+      ".pane-header": "padding: 0 8px",
+      ".pane-body": "padding: 8px",
+      ".split-view-view:first-child .pane-header": "display: none !important;",
+      ".monaco-list-row": "border-radius: 4px;",
+      ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+    },
+    "apc.header": {
+      "height": 36
+    },
+    "apc.listRow": {
+      "height": 24
+    },
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.formatOnSave": false,
+    "workbench.editor.editorActionsLocation": "hidden",
+    "workbench.editor.showTabs": "multiple",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.suggest.autoImports": true,
+    "extensions.ignoreRecommendations": true,
+    "editor.parameterHints.enabled": false,
+    "editor.suggestSelection": "first",
+    "explorer.confirmDelete": false,
+    "terminal.integrated.showExitAlert": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.accessibilitySupport": "off",
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+  }

@@ -67,9 +67,11 @@ PERL_MM_OPT="INSTALL_BASE=/home/matheus/perl5"
 export PERL_MM_OPT
 
 # ~~~~~~~~~~~~~~~ Go ~~~~~~~~~~~~~~~~~~~~~~~~
-export PATH=$PATH:/usr/local/go/bin
-export GOBIN=/usr/local/bin
+export GOBIN=$HOME/go/bin
 export GOPATH=$HOME/go/
+export GOROOT=/usr/local/go
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+
 
 # ~~~~~~~~~~~~~~~ Aliases ~~~~~~~~~~~~~~~~~~~~~~~~
 alias la='ls -A'
@@ -85,3 +87,8 @@ alias chrome="google-chrome"
 alias tf="terraform"
 alias v="nvim"
 alias lg="lazygit"
+alias python="python3"
+alias ds='docker stop $(docker ps -a -q)'
+alias dr='docker rm $(docker ps -a -q)'
+
+export GEM_HOME="$HOME/.gem"
